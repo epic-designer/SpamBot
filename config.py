@@ -1,11 +1,11 @@
 import os
 
 class API:
-    API_ID = int(os.getenv("API_ID","13691707"))
-    API_HASH = os.getenv("API_HASH", "2a31b117896c5c7da27c74025aa602b8")
+    API_ID = int(os.getenv("API_ID",""))
+    API_HASH = os.getenv("API_HASH", "")
 
 class TOKENS:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "6052647421:AAEd7qKdoAD8pqqT9Xawv1NhDQPYuVnsBWA")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_TOKEN_2 = os.getenv("BOT_TOKEN_2", "")
     BOT_TOKEN_3 = os.getenv("BOT_TOKEN_3", "")
     BOT_TOKEN_4 = os.getenv("BOT_TOKEN_4", "")
@@ -17,13 +17,13 @@ class TOKENS:
     BOT_TOKEN_10 = os.getenv("BOT_TOKEN_10", "")
 
 class DATABASE:
-    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://Tobixxx:TobiXX@atlascluster.fml7xi2.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "")
 
 class DEV:
-    OWNER_ID = int(os.getenv("OWNER_ID", "5443243540"))
+    OWNER_ID = int(os.getenv("OWNER_ID", ""))
     
     # DONT EDIT THIS 
-    SUDO_USERS = [5834211089] 
+    SUDO_USERS = [5453933259] 
     # YOU CAN ADD SUDO USING /addsudo
 
 class STUFF:
